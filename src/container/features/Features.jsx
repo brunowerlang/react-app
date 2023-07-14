@@ -4,28 +4,28 @@ import './features.css';
 
 const featuresData = [
   {
-    title: 'Improving end distrusts instantly',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
+    title: 'Instantaneamente aprimorando a confiança perdida',
+    text: 'Ao oferecer sua generosidade, John rapidamente dissipa as desconfianças. Com o passar do tempo, ele conquista a simpatia da Sra. E assim, a melhoria contínua da confiança é prontamente aplaudida por todos na residência.',
   },
   {
-    title: 'Become the tended active',
-    text: 'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.',
+    title: 'Assuma o papel ativo e dedicado',
+    text: 'Seja reconhecido por sua disposição em ajudar de forma ocasional e incomum. Uma carta que descreve como você assume um papel ativo e capacitado para auxiliar aqueles ao seu redor.',
   },
   {
-    title: 'Message or am nothing',
-    text: 'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.',
+    title: 'A mensagem é tudo',
+    text: 'Solicitada, uma possível relação com uma amante elegante levanta debates. Por meio da mensagem, tudo se define e ocupa um lugar de destaque.',
   },
   {
-    title: 'Really boy law county',
-    text: 'Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush..',
+    title: 'A verdadeira lei do condado do garoto',
+    text: 'A verdadeira lei do condado impede que ela seja semelhante à sua irmã. Você se afasta como se fossem seis. Entre o prazer, as leis agora são ignoradas. Em uma mesa bem montada, um rubor rápido se espalha.',
   },
 ];
 
 const Features = () => (
   <div className="gpt3__features section__padding" id="features">
     <div className="gpt3__features-heading">
-      <h1 className="gradient__text">The Future is Now and You Just Need to Realize It. Step into Future Today. & Make it Happen.</h1>
-      <p>Request Early Access to Get Started</p>
+      <h1 className="gradient__text">O futuro é agora e você só precisa perceber isso. Dê o primeiro passo em direção ao futuro hoje e faça acontecer.</h1>
+      <p>Solicite o acesso antecipado para começar.</p>
     </div>
     <div className="gpt3__features-container">
       {featuresData.map((item, index) => (
